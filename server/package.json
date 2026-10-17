@@ -1,0 +1,18 @@
+{
+  "name": "hungry-buffs-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express REST API for Hungry Buffs: finds restaurants near CU Boulder with Google Places",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "dev": "node --watch --env-file-if-exists=.env src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
